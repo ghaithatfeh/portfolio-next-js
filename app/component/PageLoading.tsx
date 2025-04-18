@@ -14,23 +14,23 @@ declare global {
 const PageLoading = () => {
 	const [isLoading, setIsLoading] = useState(true);
 
+	const handleLoad = () => {
+		setIsLoading(false);
+		document.documentElement.style.overflowY = "auto";
+
+		// initial AOS library
+		AOS.init({
+			delay: 40,
+			duration: 1200,
+			easing: "ease-in-out",
+		});
+
+		// Make jQuery globally available
+		window.$ = $;
+		window.jQuery = $;
+	};
+
 	useEffect(() => {
-		const handleLoad = () => {
-			setIsLoading(false);
-			document.documentElement.style.overflowY = "auto";
-
-			// initial AOS library
-			AOS.init({
-				delay: 40,
-				duration: 1200,
-				easing: "ease-in-out",
-			});
-
-			// Make jQuery globally available
-			window.$ = $;
-			window.jQuery = $;
-		};
-
 		// Case 1: Document already loaded
 		if (document.readyState === "complete") {
 			handleLoad();
@@ -42,7 +42,7 @@ const PageLoading = () => {
 		const timeout = setTimeout(() => {
 			console.warn("Fallback timeout hit, forcing loader off.");
 			handleLoad();
-		}, 5000);
+		}, 1000);
 
 		return () => {
 			clearTimeout(timeout); // cleanup timeout

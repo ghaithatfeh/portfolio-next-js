@@ -1,3 +1,6 @@
+import Image from "next/image";
+import personBlue from "../../public/images/person-blue-shirt.png";
+
 const Contact = () => {
 	return (
 		<section className="contact" id="contact">
@@ -10,7 +13,7 @@ const Contact = () => {
 				</p>
 				<div className="contact-container" data-aos="zoom-in">
 					<div className="main">
-						<img src="images/person-blue-shirt.png" alt="." />
+						<Image src={personBlue} alt="." />
 						<div>
 							<h1>Ghaith Atfeh</h1>
 							<p>Full Stack Developer</p>

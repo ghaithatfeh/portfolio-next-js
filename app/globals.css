@@ -161,10 +161,6 @@ h3 {
 	align-items: center;
 }
 
-.header .logo {
-	width: 43px;
-}
-
 .header .links {
 	position: relative;
 	cursor: pointer;
@@ -419,7 +415,6 @@ h3 {
 	line-height: 1.6;
 }
 
-/* تظبيط الصورة */
 .services-container .image img {
 	width: 260px;
 	position: relative;

@@ -1,5 +1,7 @@
 "use client"
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
+import logo from "../../public/images/logo.svg";
 
 const Header = () => {
 	const [openMenu, setOpenMenu] = useState(false);
@@ -20,7 +22,7 @@ const Header = () => {
 		<header className="header shadow py-3" data-aos="fade-down">
 			<div className="container">
 				<a href="#top" style={{ height: "30px" }}>
-					<img src="images/logo.svg" alt="Logo" className="logo" />
+					<Image src={logo} alt="Logo" width="43" />
 				</a>
 				<div className="links-lg d-none d-md-block">
 					<ul className="navbar-nav d-flex flex-row gap-4">

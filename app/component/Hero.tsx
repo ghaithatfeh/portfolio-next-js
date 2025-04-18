@@ -1,11 +1,4 @@
-"use client";
-
-// import { useEffect } from "react";
-
 const Hero = () => {
-	// useEffect(() => {
-	// 	console.log("sd");
-	// }, []);
 	return (
 		<section className="landing">
 			<div className="intro-text">
