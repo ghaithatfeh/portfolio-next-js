@@ -4,7 +4,7 @@ import "./normalize.css";
 import type { Metadata } from "next";
 import { almarai, workSans } from "./fonts";
 
-const metadata: Metadata = {
+export const metadata: Metadata = {
 	title: "Ghaith | Profile",
 	description: "Personal portfolio",
 };
