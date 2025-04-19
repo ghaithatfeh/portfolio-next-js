@@ -3,7 +3,7 @@ name: Build & Deploy to Hostinger
 on:
   push:
     branches:
-      - main  # or 'master' — use your main branch name
+      - main
 
 jobs:
   deploy:
@@ -24,9 +24,8 @@ jobs:
       - name: 🛠 Build static site
         run: |
           npm run build
-          ls out
 
-      - name: 🚀 Upload to Hostinger via FTP
+      - name: 🚀 Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4
         with:
           server: ${{ secrets.FTP_HOST }}
