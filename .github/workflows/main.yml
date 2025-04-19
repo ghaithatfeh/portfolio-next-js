@@ -22,7 +22,9 @@ jobs:
         run: npm ci
 
       - name: 🛠 Build static site
-        run: npm run build
+        run: |
+          npm run build
+          ls out
 
       - name: 🚀 Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
