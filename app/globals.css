@@ -284,7 +284,7 @@ h3 {
 /* end header */
 /* start landing */
 .landing {
-	background-image: url(../public/images/landing.jpg);
+	background-image: url(../public/images/landing.webp);
 	background-size: cover;
 	background-position-x: center;
 	background-attachment: fixed;

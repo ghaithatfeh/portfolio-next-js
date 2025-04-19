@@ -1,5 +1,5 @@
 import Image from "next/image";
-import personBlue from "../../public/images/person-blue-shirt.png";
+import personBlue from "../../public/images/person-blue-shirt.webp";
 
 const Contact = () => {
 	return (

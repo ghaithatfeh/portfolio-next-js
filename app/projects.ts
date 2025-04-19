@@ -1,15 +1,15 @@
-import wasset from "../public/images/wasset.png";
-import youbu from "../public/images/portfolio6.png";
-import ancestry from "../public/images/ancestry.png";
-import crisper from "../public/images/crisper.jpg";
-import portfolio4 from "../public/images/portfolio4.jpg";
-import moneyManagement from "../public/images/money-management.png";
-import portfolio3 from "../public/images/portfolio3.jpg";
-import portfolio5 from "../public/images/portfolio5.jpeg";
-import portfolio7 from "../public/images/portfolio7.png";
-import portfolio8 from "../public/images/portfolio8.png";
-import portfolio9 from "../public/images/portfolio9.png";
-import gamehub from "../public/images/gamehub.png";
+import wasset from "../public/images/wasset.webp";
+import youbu from "../public/images/portfolio6.webp";
+import ancestry from "../public/images/ancestry.webp";
+import crisper from "../public/images/crisper.webp";
+import portfolio4 from "../public/images/portfolio4.webp";
+import moneyManagement from "../public/images/money-management.webp";
+import portfolio3 from "../public/images/portfolio3.webp";
+import portfolio5 from "../public/images/portfolio5.webp";
+import portfolio7 from "../public/images/portfolio7.webp";
+import portfolio8 from "../public/images/portfolio8.webp";
+import portfolio9 from "../public/images/portfolio9.webp";
+import gamehub from "../public/images/gamehub.webp";
 
 const projects = [
 	{
