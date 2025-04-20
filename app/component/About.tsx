@@ -19,8 +19,8 @@ const About = () => {
 						<p data-aos="fade-up">
 							An ambitious person with high organizational abilities, a
 							passionate Full-Stack Developer with a Bachelor&rsquo;s degree in
-							Computer Science and 3 years of experience in web development, I
-							possess strong skills in <b>Laravel, React.js, and Vue.js</b>.
+							Computer Science and 4 years of experience in web development, I
+							possess strong skills in <b>Laravel, React.js, and Next.js</b>.
 						</p>
 						<hr data-aos="fade-left" />
 						<p data-aos="fade-up">
