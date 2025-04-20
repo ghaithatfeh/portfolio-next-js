@@ -26,11 +26,20 @@ jobs:
           npm run build
           ls out
 
+      - name: 🧹 Clean _next folder from remote
+        uses: sebastianpopp/ftp-action@releases/v2
+        with:
+          host: ${{ secrets.FTP_HOST }}
+          user: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          remoteDir: ${{ secrets.FTP_TARGET_DIR }}
+          command: "rmdir _next -f"
+
       - name: 🚀 Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./out/
           server-dir: ${{ secrets.FTP_TARGET_DIR }}
+          local-dir: ./out/
