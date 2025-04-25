@@ -25,7 +25,7 @@ jobs:
         run: npm run build
 
       - name: 🚀 Deploy via FTP
-        uses: ghaithatfeh/FTP-Deploy-Action
+        uses: ghaithatfeh/FTP-Deploy-Action@master
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
