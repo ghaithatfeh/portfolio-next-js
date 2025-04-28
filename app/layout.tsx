@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 import "./normalize.css";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from "next";
 import { almarai, workSans } from "./fonts";
 
@@ -18,6 +19,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={`${workSans.variable} ${almarai.variable}`}>
 				<main className="p-6">{children}</main>
+				<SpeedInsights />
 			</body>
 		</html>
 	);
