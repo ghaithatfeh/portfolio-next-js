@@ -2,7 +2,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPalette, faMobileAlt, faPencilRuler } from "@fortawesome/free-solid-svg-icons";
 import { faInternetExplorer } from "@fortawesome/free-brands-svg-icons";
 import Animation from "../assets/lotties/Animation1.json";
-import LottieWrapper from "./LottieWrapper";
+import dynamic from "next/dynamic";
+
+const LottieWrapper = dynamic(() => import("./LottieWrapper"), { ssr: false });
 
 const Services = () => {
 	return (

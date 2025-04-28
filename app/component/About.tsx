@@ -1,5 +1,7 @@
 import Animation from "../assets/lotties/Animation2.json";
-import LottieWrapper from "./LottieWrapper";
+import dynamic from "next/dynamic";
+
+const LottieWrapper = dynamic(() => import("./LottieWrapper"), { ssr: false });
 
 const About = () => {
 	return (
