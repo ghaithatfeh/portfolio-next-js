@@ -2,14 +2,6 @@
 import React, { useEffect, useState } from "react";
 import Loading from "../loading";
 import AOS from "aos";
-import $ from "jquery";
-
-declare global {
-	interface Window {
-		$: typeof $;
-		jQuery: typeof $;
-	}
-}
 
 const PageLoading = () => {
 	const [isLoading, setIsLoading] = useState(true);
@@ -24,10 +16,6 @@ const PageLoading = () => {
 			duration: 1200,
 			easing: "ease-in-out",
 		});
-
-		// Make jQuery globally available
-		window.$ = $;
-		window.jQuery = $;
 	};
 
 	useEffect(() => {
