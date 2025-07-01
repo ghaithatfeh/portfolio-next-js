@@ -19,9 +19,9 @@ const Contact = () => {
 							<p>Full Stack Developer</p>
 						</div>
 						<hr />
-						<a href="https://www.facebook.com/ghaith.atfeh0" target="blank">
+						<a href="https://www.facebook.com/ghaithatfeh0" target="blank">
 							<p>Facebook</p>
-							<p>ghaith.atfeh0</p>
+							<p>ghaithatfeh0</p>
 						</a>
 						<a href="https://www.linkedin.com/in/ghaithatfeh/" target="blank">
 							<p>Linkedin</p>
