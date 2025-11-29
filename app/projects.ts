@@ -10,6 +10,7 @@ import portfolio7 from "../public/images/portfolio7.webp";
 import portfolio8 from "../public/images/portfolio8.webp";
 import portfolio9 from "../public/images/portfolio9.webp";
 import gamehub from "../public/images/gamehub.webp";
+import bwe from "../public/images/bwe.png";
 
 const projects = [
 	{
@@ -19,18 +20,24 @@ const projects = [
 		url: "https://homelydesign.ca/",
 	},
 	{
+		image: youbu,
+		title: "YouBeeU",
+		description: "A social media platform. The platform is available on the web, iPhone, and Android devices. My main task was to build the APIs for everything related to feeds, using the Laravel framework.",
+		url: "https://youbeeu.com.au/feed/all/",
+	},
+	{
+		image: bwe,
+		title: "BWE Webiste & Dashboard",
+		description: "Website and dashboard for company offers packaging solutions. Focused on very high performance and SEO optimization. Multi-language support. Full control of categories and products through the dashboard. Built with Next.js.",
+		url: "https://bestworldemballage.com/",
+	},
+	{
 		image: wasset,
 		title: "منصة وسيط للأعمال المستقلة",
 		isArabic: true,
 		description:
 			"Al Waseet is an Arab platform that helps business owners to access the best professional freelance workers to contract with them to do business and projects online.",
 		url: "https://wasset-demo.ghaithatfeh.online/",
-	},
-	{
-		image: youbu,
-		title: "YouBeeU",
-		description: "A social media platform. The platform is available on the web, iPhone, and Android devices. My main task was to build the APIs for everything related to feeds, using the Laravel framework.",
-		url: "https://youbeeu.com.au/feed/all/",
 	},
 	{
 		image: ancestry,

@@ -20,7 +20,7 @@ const ProjectCard = ({ project }: Props) => {
 					src={project?.image}
 					className="card-img-top"
 					alt="project image"
-					style={project.title == "Ancestry App" ? { objectFit: "contain" } : {}}
+					style={project.title == "Ancestry App" ? { objectFit: "contain" } : {objectPosition: "top"}}
 				/>
 				<div className="card-body">
 					<h3 className={project.isArabic ? "card-title ar-text" : "card-title"}>{project.title}</h3>
