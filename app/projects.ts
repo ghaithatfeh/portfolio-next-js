@@ -10,7 +10,7 @@ import portfolio7 from "../public/images/portfolio7.webp";
 import portfolio8 from "../public/images/portfolio8.webp";
 import portfolio9 from "../public/images/portfolio9.webp";
 import gamehub from "../public/images/gamehub.webp";
-import bwe from "../public/images/bwe.png";
+import bwe from "../public/images/bwe.webp";
 
 const projects = [
 	{
