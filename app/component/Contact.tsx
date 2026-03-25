@@ -19,20 +19,24 @@ const Contact = () => {
 							<p>Full Stack Developer</p>
 						</div>
 						<hr />
-						<a href="https://www.facebook.com/ghaithatfeh0" target="blank">
-							<p>Facebook</p>
-							<p>ghaithatfeh0</p>
-						</a>
-						<a href="https://www.linkedin.com/in/ghaithatfeh/" target="blank">
-							<p>Linkedin</p>
-							<p>ghaithatfeh</p>
-						</a>
 						<a href="mailto:a89ghaith@gmail.com">
-							<p>Gmail</p>
-							<p>a89ghaith</p>
+							<p>Email</p>
+							<p>a89ghaith@gmail.com</p>
+						</a>
+						<a href="tel:+963938914469">
+							<p>Phone</p>
+							<p>+963 938 914 469</p>
 						</a>
 						<a href="https://github.com/ghaithatfeh" target="_blank">
 							<p>GitHub</p>
+							<p>ghaithatfeh</p>
+						</a>
+						{/* <a href="https://www.facebook.com/ghaithatfeh0" target="blank">
+							<p>Facebook</p>
+							<p>ghaithatfeh0</p>
+						</a> */}
+						<a href="https://www.linkedin.com/in/ghaithatfeh/" target="blank">
+							<p>Linkedin</p>
 							<p>ghaithatfeh</p>
 						</a>
 					</div>
