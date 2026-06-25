@@ -35,7 +35,7 @@ const projects = [
 	{
 		image: synfia,
 		title: "Synfia AI",
-		description: "AI-powered interview platform replacing surveys with natural voice conversations. Built a real-time voice chat and conversation analysis system using OpenAI and ElevenLabs. Built it independently. React, Supabase, Claude Code.",
+		description: "AI-powered interview platform replacing surveys with natural voice conversations. I Built a real-time voice chat and conversation analysis system using OpenAI and ElevenLabs. I Built it independently. React, Supabase, Claude Code.",
 		url: "https://synfia.ai/",
 	},
 	{
