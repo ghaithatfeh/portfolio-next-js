@@ -35,7 +35,11 @@ const Contact = () => {
 							<p>Facebook</p>
 							<p>ghaithatfeh0</p>
 						</a> */}
-						<a href="https://www.linkedin.com/in/ghaithatfeh/" target="blank">
+						{/* <a href="https://www.linkedin.com/in/ghaithatfeh/" target="blank">
+							<p>Linkedin</p>
+							<p>ghaithatfeh</p>
+						</a> */}
+						<a href="https://www.linkedin.com/in/mhdghaithatfeh/" target="blank">
 							<p>Linkedin</p>
 							<p>ghaithatfeh</p>
 						</a>

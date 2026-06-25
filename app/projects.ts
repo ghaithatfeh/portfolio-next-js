@@ -11,6 +11,7 @@ import portfolio8 from "../public/images/portfolio8.webp";
 import portfolio9 from "../public/images/portfolio9.webp";
 import gamehub from "../public/images/gamehub.webp";
 import bwe from "../public/images/bwe.webp";
+import synfia from "../public/images/synfia.webp";
 
 const projects = [
 	{
@@ -30,6 +31,12 @@ const projects = [
 		title: "BWE Webiste & Dashboard",
 		description: "Website and dashboard for company offers packaging solutions. Focused on very high performance and SEO optimization. Multi-language support. Full control of categories and products through the dashboard. Built with Next.js.",
 		url: "https://bestworldemballage.com/",
+	},
+	{
+		image: synfia,
+		title: "Synfia AI",
+		description: "AI-powered interview platform replacing surveys with natural voice conversations. Built a real-time voice chat and conversation analysis system using OpenAI and ElevenLabs. Built it independently. React, Supabase, Claude Code.",
+		url: "https://synfia.ai/",
 	},
 	{
 		image: wasset,
